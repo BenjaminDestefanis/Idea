@@ -1,0 +1,17 @@
+
+/* Modelo USUARIO */
+model User {
+    id          Int         @id @default(autoincrement())
+    name        String
+    email       String      @unique
+    password    String
+    role        Role        @default(STUDENT)
+    createdAt   DateTime    @default(now())
+}
+
+/* Definion de Role */
+enum Role {
+    STUDENT
+    INSTRUCTOR
+    ADMIN
+}

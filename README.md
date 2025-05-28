@@ -25,3 +25,16 @@ Idea --
 5. CERTIFICADOS
     - Generacion de PDF con nombre y curso completado
 
+6. AUTENTICACION
+    - JWT (JSON WEB TOKENS)
+    - Passwords con BCRYPT
+    - Middlewares para proteccion de rutas segun rol de usuario.
+
+7. STACK TEGNOLOGICO
+    - Node.js + Express.js
+    - PostgreSQL + Prisma ORM (Alternativa Sequelize)
+    - JWT para login
+    - BCRYPT para encriptar contraseñas
+    - DOTENV (Variables de entorno)
+    - CORS, HELMET, seguridad.
+    

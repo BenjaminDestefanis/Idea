@@ -38,3 +38,14 @@ Idea --
     - DOTENV (Variables de entorno)
     - CORS, HELMET, seguridad.
     
+## FASES Y PASOS
+
+### FASE 1: AUTENTUCACION DE USUARIOS (NODE.JS / EXPRESS / POSTGRESQL)}
+
+    - Express
+    - PostgreSQL
+    - Prisma
+    - bcrypt
+    - jsonwebtoken
+    - dotenv
+    

@@ -1,4 +1,6 @@
 
+
+/* PRIMER MODELO PRISMA */
 /* Modelo USUARIO */
 model User {
     id          Int         @id @default(autoincrement())
